@@ -7,6 +7,7 @@ mi_sandwitch = sandwitch("integral", 1250)
 ventas = ventas()
 vegetariano = sandwitch_vegetariano("integral", 1000, "lechuga, tomate, cebolla, pimenton")
 carne = sandwithch_Carne("ajo", 1500, "pollo,tocineta,queso,costilla")
-
+carne.set_precio(2000)
 
 ventas.agregar_sandwitch(vegetariano)
+ventas.agregar_sandwitch(carne)

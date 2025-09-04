@@ -15,10 +15,6 @@ def main():
     camion1 = Camion("Ford", "F-150", 30000, 2021, 2)
     camion2 = Camion("Chevrolet", "Silverado", 40000, 2022, 3)
     
-# Cambiar el precio usando el setter
-    auto1.precio = 21000  # sube de 20000 a 21000
-    print("\nDespués de modificar el precio:")
-    auto1.mostrar_info()    
 
 # Agregar vehículos a la concesionaria 
     concesionaria.agregar_vehiculo(auto1)
@@ -34,6 +30,10 @@ def main():
 # Mostrar catálogo de vehículos
     concesionaria.mostrar_catalogo()
     print("\nBúsqueda de vehículos:")
+# Cambiar el precio usando el setter
+    auto1.precio = 21000  # sube de 20000 a 21000
+    print("\nDespués de modificar el precio:")
+    auto1.mostrar_info()    
 
 # Buscar vehículos por marca y modelo   
     concesionaria.buscar_vehiculo("Ford", "Mustang")

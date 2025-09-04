@@ -18,3 +18,7 @@ class Vehiculo:
             self.__precio = nuevo_precio
         else:
             print("El precio no puede ser negativo.")
+            
+    def mostrar_info(self):
+        print(self.descripcion())
+            
